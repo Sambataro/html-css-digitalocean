@@ -5,7 +5,7 @@
 
 /* header nav */
 header {
-  height: 50px;
+  padding: 0 15px;
 }
 .alg_middle {
   vertical-align: middle;
@@ -24,21 +24,83 @@ header {
 /* header nav */
 
 /* jumbotron area */
+#jumbotron {
+  width: 100%;
+  height: 100%;
+  padding: 0 15px;
+  background-image: url(../img/jumbotron.svg);
+  background-size: cover;
+}
 
+#jumbotron h1 {
+  color: #FFF;
+  padding: 40px 0 20px;
+}
+
+#jumbotron p {
+  color: #FFF;
+  padding-bottom: 20px;
+}
+
+
+/* form area */
+.wrapping {
+  width: 100%;
+  padding: 5%;
+  margin: 20px 0;
+  background-color: #FFF;
+  border-radius: 5px;
+}
+
+.wrapping h2 > a:hover {
+  text-decoration: none;
+  color: #1633FF;
+}
+
+.btn.btn-default.btn-lg.btn-block.create_account{
+  background-color: #3A8AFF;
+  color: white;
+  font-size: 10px;
+}
+.btn.btn-default.btn-lg.btn-block.create_account:hover {
+  background-color: #1633FF;
+}
+
+.btn.btn-default.btn-lg.btn-block.signup_google {
+  background-color: transparent;
+  color: #3A8AFF;
+  font-size: 10px;
+}
+
+.btn.btn-default.btn-lg.btn-block.signup_google span:hover {
+  color: black;
+}
+
+.signup_google span {
+  text-align: center;
+  margin-right: 107px;
+  margin-left: 87px;
+}
+/* /form area */
 /*/ jumbotron area */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
-  #hamburger_menu {
-    border: none;
-    color: #3A8AFF;
-    width: 100px;
+
+  .wrapping {
+    width: 60%;
+    margin-left: 32%;
+    background-color: #FFF;
+    border-radius: 5px;
   }
+
+
+
 }
 
 @media screen and (min-width: 1200px) {
 
-
+  /* header nav */
   header {
     padding: 10px;
   }
@@ -79,6 +141,14 @@ header {
   .btn.btn-default.sign_up:hover {
     background-color: #3A8AFF;
     color: #FFF;
+  }
+  /*/ header nav */
+
+  .wrapping {
+    width: 60%;
+    margin-left: 32%;
+    background-color: #FFF;
+    border-radius: 5px;
   }
 
 
