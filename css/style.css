@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* header nav */
+header {
+  height: 50px;
+}
+.alg_middle {
+  vertical-align: middle;
+}
+
+#digital_logo {
+  width: 80%;
+  margin: 5%;
+}
+
+#hamburger_menu {
+  border: none;
+  color: #3A8AFF;
+  margin: 5%;
+}
+/* header nav */
+
+/* jumbotron area */
+
+/*/ jumbotron area */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  #hamburger_menu {
+    border: none;
+    color: #3A8AFF;
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+
+  header {
+    padding: 10px;
+  }
+  .alg_middle {
+    vertical-align: middle;
+  }
+
+  #digital_logo {
+    width: 80%;
+    line-height: 50px;
+  }
+
+  ul li {
+    line-height: 50px;
+    list-style: none;
+    display: inline-block;
+    margin: 5px 5px 0 5px;
+    font-size: 18px;
+    font-weight: 300;
+
+  }
+
+  li a:hover {
+    color: #3A8AFF;
+    text-decoration: none;
+  }
+
+  li a {
+    color: black;
+  }
+
+  .btn.btn-default.sign_up {
+    background-color: transparent;
+    border: 1px solid #3A8AFF;
+    color: #3A8AFF;
+  }
+
+  .btn.btn-default.sign_up:hover {
+    background-color: #3A8AFF;
+    color: #FFF;
+  }
+
+
+}
