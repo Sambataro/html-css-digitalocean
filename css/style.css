@@ -2,7 +2,9 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
-
+.padding_20 {
+  padding: 20px 0;
+}
 /* header nav */
 header {
   padding: 0 15px;
@@ -34,15 +36,15 @@ header {
 
 #jumbotron h1 {
   color: #FFF;
+  font-size: 40px;
   padding: 40px 0 20px;
 }
 
 #jumbotron p {
-  color: #FFF;
+  color: #B6C9FF;
+  font-size: 20px;
   padding-bottom: 20px;
 }
-
-
 /* form area */
 .wrapping {
   width: 100%;
@@ -101,14 +103,36 @@ header {
    color: #65728E;
  }
 /*/ customer logo area */
+/* deploy area */
+#deploy h2 {
+  font-size: 27px;
+}
+
+#deploy p {
+  font-size: 14px;
+}
+
+#deploy li {
+  padding: 10px;
+  border-left: 1px solid #75809A;
+}
+
+#deploy a {
+  color: #75809A;
+}
+
+#deploy li:hover a {
+  font-weight: 400;
+  color: black;
+}
+
+
 
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
-
+  /* jumbotron area */
   .wrapping {
-    width: 60%;
-    margin-left: 32%;
     background-color: #FFF;
     border-radius: 5px;
   }
@@ -118,9 +142,12 @@ header {
     margin-right: 107px;
     margin-left: 30px;
   }
-
-
-
+  /*/jumbotron area */
+  /* customer logo area */
+  .logos{
+    width: 16%;
+  }
+  /*/customer logo area */
 }
 
 @media screen and (min-width: 1200px) {
@@ -144,7 +171,7 @@ header {
     display: inline-block;
     margin: 5px 5px 0 5px;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 400;
 
   }
 
@@ -156,6 +183,15 @@ header {
   li a {
     color: black;
   }
+  /*/ header nav */
+  /* jumbotron area */
+  #jumbotron h1 {
+    font-size: 50px;
+  }
+
+  #jumbotron p {
+    font-size: 20px;
+  }
 
   .btn.btn-default.sign_up {
     background-color: transparent;
@@ -163,17 +199,25 @@ header {
     color: #3A8AFF;
   }
 
+  .btn.btn-default.btn-lg.btn-block.create_account{
+    font-size: 20px;
+  }
+
+  .signup_google  {
+    font-size: 20px;
+  }
+
   .btn.btn-default.sign_up:hover {
     background-color: #3A8AFF;
     color: #FFF;
   }
-  /*/ header nav */
 
   .wrapping {
     background-color: #FFF;
     border-radius: 5px;
   }
-
+  /* /jumbotron area */
+  /* customer logo area */
   .logos {
     width: 16%;
     margin: 30px 0;
@@ -183,6 +227,18 @@ header {
     margin-top: 40px;
     color: #65728E;
   }
+
+  #customer_logo a {
+    color: #3A8AFF;
+    font-size: 20px;
+  }
+
+  #customer_logo a:hover {
+    color: #1633FF;
+    text-decoration: none;
+  }
+  /*/customer logo area */
+
 
 
 }
