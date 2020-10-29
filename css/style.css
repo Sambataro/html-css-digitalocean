@@ -14,6 +14,10 @@
   font-size: 27px;
 }
 
+.xs-p {
+  font-size: 14px;
+}
+
 /* header nav */
 header {
   padding: 0 15px;
@@ -51,7 +55,6 @@ header {
 
 #jumbotron p {
   color: #B6C9FF;
-  font-size: 20px;
   padding-bottom: 20px;
 }
 /* form area */
@@ -106,7 +109,7 @@ header {
 /* customer logo area */
 #customer_logo {
   width: 100%;
-  padding: 5%;
+  padding: 5% 0;
   background-color: #F3F5F9;
 }
  #customer_logo h5 {
@@ -114,11 +117,9 @@ header {
  }
 /*/ customer logo area */
 /* deploy area */
-
-#deploy p {
-  font-size: 14px;
+#deploy {
+  padding: 5%;
 }
-
 #deploy li {
   padding: 10px;
   border-left: 1px solid #75809A;
@@ -131,6 +132,22 @@ header {
 #deploy li:hover a {
   font-weight: 400;
   color: black;
+}
+/* deploy area */
+/* developer area */
+#developer {
+  background-color: #F3F5F9;
+  padding: 5%;
+}
+#carousel {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.far.fa-circle , .fas.fa-circle {
+  color: #3A8AFF;
+  padding: 20px 0;
 }
 
 
@@ -155,10 +172,35 @@ header {
     width: 16%;
   }
   /*/customer logo area */
+  .lg-h2 {
+    font-size: 35px;
+  }
+
+  .lg-h6 {
+    font-size: 24px;
+  }
+
+  .lg-p {
+    font-size: 20px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
 
+
+  /* font size lg */
+  .lg-h2 {
+    font-size: 35px;
+  }
+
+  .lg-h6 {
+    font-size: 24px;
+  }
+
+  .lg-p {
+    font-size: 20px;
+  }
+  /*/font size lg */
   /* header nav */
   header {
     padding: 10px;
@@ -252,18 +294,6 @@ header {
   }
   /*/customer logo area */
   /* deploy area */
-  #deploy h2 {
-    font-size: 35px;
-  }
-
-  #deploy h6 {
-    font-size: 28px;
-  }
-
-  #deploy p {
-    font-size: 20px;
-
-  }
 
   #deploy ul {
     border-left: 1px solid #75809A;
@@ -278,13 +308,6 @@ header {
     color: #75809A;
   }
 
-  .wrapping_2 {
-    padding: 20%;
-  }
-
-  /* .wrapping_3 {
-    padding: 10%;
-  } */
 
 
 }
