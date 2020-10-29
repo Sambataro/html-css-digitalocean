@@ -50,6 +50,7 @@ header {
   margin: 20px 0;
   background-color: #FFF;
   border-radius: 5px;
+  colore: black;
 }
 
 .wrapping h2 > a:hover {
@@ -81,8 +82,26 @@ header {
   margin-right: 107px;
   margin-left: 87px;
 }
+
+.signup_google {
+  margin-bottom: 20px;
+}
+
+#service {
+  color: black;
+}
 /* /form area */
 /*/ jumbotron area */
+/* customer logo area */
+#customer_logo {
+  width: 100%;
+  background-color: #F3F5F9;
+}
+ #customer_logo h5 {
+   color: #65728E;
+ }
+/*/ customer logo area */
+
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
@@ -92,6 +111,12 @@ header {
     margin-left: 32%;
     background-color: #FFF;
     border-radius: 5px;
+  }
+
+  .signup_google span {
+    text-align: center;
+    margin-right: 107px;
+    margin-left: 30px;
   }
 
 
@@ -109,16 +134,16 @@ header {
   }
 
   #digital_logo {
-    width: 80%;
+    width: 100%;
     line-height: 50px;
+    margin-top: 10%;
   }
 
   ul li {
     line-height: 50px;
-    list-style: none;
     display: inline-block;
     margin: 5px 5px 0 5px;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 300;
 
   }
@@ -145,10 +170,18 @@ header {
   /*/ header nav */
 
   .wrapping {
-    width: 60%;
-    margin-left: 32%;
     background-color: #FFF;
     border-radius: 5px;
+  }
+
+  .logos {
+    width: 16%;
+    margin: 30px 0;
+  }
+
+  #customer_logo h4 {
+    margin-top: 40px;
+    color: #65728E;
   }
 
 
