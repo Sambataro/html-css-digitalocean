@@ -2,9 +2,18 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
-.padding_20 {
-  padding: 20px 0;
+.margin_20 {
+  margin-top: 20px;
 }
+* p {
+  color: #75809A;
+}
+
+/* font size xs */
+.h2-xs {
+  font-size: 27px;
+}
+
 /* header nav */
 header {
   padding: 0 15px;
@@ -97,6 +106,7 @@ header {
 /* customer logo area */
 #customer_logo {
   width: 100%;
+  padding: 5%;
   background-color: #F3F5F9;
 }
  #customer_logo h5 {
@@ -104,9 +114,6 @@ header {
  }
 /*/ customer logo area */
 /* deploy area */
-#deploy h2 {
-  font-size: 27px;
-}
 
 #deploy p {
   font-size: 14px;
@@ -166,17 +173,23 @@ header {
     margin-top: 10%;
   }
 
-  ul li {
+  .nav li  {
     line-height: 50px;
     display: inline-block;
-    margin: 5px 5px 0 5px;
+    margin: 3px 3px 0 3px;
     font-size: 15px;
     font-weight: 400;
 
   }
 
-  li a:hover {
+  .nav li a {
+    padding: 5px;
+
+  }
+
+  .nav a:hover {
     color: #3A8AFF;
+    background-color: white;
     text-decoration: none;
   }
 
@@ -238,7 +251,40 @@ header {
     text-decoration: none;
   }
   /*/customer logo area */
+  /* deploy area */
+  #deploy h2 {
+    font-size: 35px;
+  }
 
+  #deploy h6 {
+    font-size: 28px;
+  }
+
+  #deploy p {
+    font-size: 20px;
+
+  }
+
+  #deploy ul {
+    border-left: 1px solid #75809A;
+  }
+
+  #deploy li {
+    display: block;
+  }
+
+  #deploy a {
+    font-size: 20px;
+    color: #75809A;
+  }
+
+  .wrapping_2 {
+    padding: 20%;
+  }
+
+  /* .wrapping_3 {
+    padding: 10%;
+  } */
 
 
 }
