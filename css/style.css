@@ -30,6 +30,8 @@ header {
   vertical-align: middle;
 }
 
+
+
 #digital_logo {
   width: 80%;
   margin: 5%;
@@ -148,6 +150,18 @@ header {
   padding-bottom: 10px;
 }
 
+.fas.fa-chevron-left {
+  margin-top: 250px;
+  font-size: 50px;
+  color: #6F7B97;
+  cursor: pointer;
+}
+.fas.fa-chevron-right {
+  margin-top: 250px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
 .far.fa-circle , .fas.fa-circle {
   color: #3A8AFF;
   padding: 20px 0;
@@ -194,6 +208,29 @@ th a:hover {
   text-decoration: none;
   color: #1633FE;
 }
+/*/table area  */
+/* rockerbox */
+#rockerbox {
+  padding: 5%;
+  background-color: #F3F5F9;
+}
+
+#rockerbox_logo {
+  width: 200px;
+  height: 30px;
+}
+
+.wrapping_4 {
+  width: 100%;
+  margin-top: 50px;
+  padding: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+/*/rockerbox */
+
+
 
 
 
@@ -228,6 +265,9 @@ th a:hover {
   .lg-p {
     font-size: 20px;
   }
+
+
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -351,6 +391,17 @@ th a:hover {
   #deploy a {
     font-size: 20px;
     color: #75809A;
+  }
+
+  #rockerbox {
+    padding: 5% 0;
+  }
+
+  .fas.fa-chevron-left {
+    margin-top: 350px;
+  }
+  .fas.fa-chevron-right {
+    margin-top: 350px;
   }
 
 
