@@ -18,6 +18,10 @@
   font-size: 14px;
 }
 
+.xs-th {
+  font-size: 12px;
+}
+
 /* header nav */
 header {
   padding: 5%;
@@ -157,8 +161,39 @@ header {
 
 .wrapping_3 {
 padding-top: 5%}
+/* /features area */
+/* table data area */
+#table {
+  padding: 5% 0;
+  color: white;
+  background: rgb(2,0,36);
+  background: linear-gradient(97deg, rgba(2,0,36,1) 0%, rgba(0,71,197,1) 0%, rgba(0,32,155,1) 100%);
+}
 
+table {
+  width: 100%;
+  text-align:center;
+}
 
+td, th {
+  border-bottom: 1px solid white;
+  padding: 10px;
+  font-size: 15px;
+}
+
+tr th:nth-child(2) {
+  color: #BBC8E9;
+  margin-right: 30px;
+}
+
+th a{
+  color: #36d7d2;
+}
+
+th a:hover {
+  text-decoration: none;
+  color: #1633FE;
+}
 
 
 
