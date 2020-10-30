@@ -227,8 +227,25 @@ th a:hover {
   background-color: white;
   border-radius: 5px;
 }
-
 /*/rockerbox */
+
+/* new account area */
+#new_account {
+  padding: 5% 0;
+  color: white;
+  background: rgb(2,0,36);
+  background: linear-gradient(97deg, rgba(2,0,36,1) 0%, rgba(0,71,197,1) 0%, rgba(0,32,155,1) 100%);
+}
+
+.btn.btn-default.btn-lg.your_account {
+  color: #3A8AFF;
+}
+
+.btn.btn-default.btn-lg.your_account:hover {
+  opacity: 0.8;
+}
+
+/*/new account area */
 
 
 
