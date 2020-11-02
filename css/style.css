@@ -1,7 +1,7 @@
 * {
   font-family: 'Roboto', sans-serif;
 }
-.margin_20 {
+.margin_5 {
   margin-top: 5%;
 }
 * p {
@@ -21,20 +21,22 @@
   font-size: 12px;
 }
 
-
 /* header nav */
+body  {
+  margin-top: 50px;
+}
+
 header {
-  padding: 5%;
+  padding: 5px;
+  height: 50px;
+  background-color: white;
 }
 .alg_middle {
   vertical-align: middle;
 }
 
-
-
-#digital_logo {
-  width: 80%;
-  margin: 5%;
+.digital_logo {
+  margin: 0;
 }
 
 #hamburger_menu {
@@ -43,7 +45,6 @@ header {
   margin: 5%;
 }
 /* header nav */
-
 /* jumbotron area */
 #jumbotron {
   width: 100%;
@@ -97,13 +98,17 @@ header {
 }
 
 .signup_google span {
-  text-align: center;
-  margin-right: 107px;
-  margin-left: 87px;
+  margin-right: 5%;
+  font-size: 18px;
 }
+
 
 .signup_google {
   margin-bottom: 20px;
+}
+
+.google_g {
+  margin-top: 5px;
 }
 
 #service {
@@ -114,7 +119,7 @@ header {
 /* customer logo area */
 #customer_logo {
   width: 100%;
-  padding: 5% 0;
+  padding: 5% ;
   background-color: #F3F5F9;
 }
  #customer_logo h5 {
@@ -127,16 +132,22 @@ header {
 }
 #deploy li {
   padding: 10px;
-  border-left: 1px solid #75809A;
+  border-left: 1px solid lightgray;
 }
 
 #deploy a {
   color: #75809A;
+  text-decoration: none;
 }
 
-#deploy li:hover a {
+#deploy a:hover {
   font-weight: 400;
   color: black;
+  text-decoration: none;
+}
+
+#deploy li:hover {
+  border-left: 2px solid #3A8AFF;
 }
 /* deploy area */
 /* developer area */
@@ -168,7 +179,6 @@ header {
 }
 /* developer area */
 /* features area */
-
 #features {
   padding: 5%;
 }
@@ -228,7 +238,6 @@ th a:hover {
   border-radius: 5px;
 }
 /*/rockerbox */
-
 /* new account area */
 #new_account {
   padding: 5% 0;
@@ -245,9 +254,7 @@ th a:hover {
   opacity: 0.8;
 }
 /*/new account area */
-
 /* footer area */
-
 footer {
   padding: 5%;
   background-color: #031C4E;
@@ -278,31 +285,77 @@ footer ul li:hover{
   color: white;
   cursor: pointer;
 }
+/*/footer area */
+/* widget_shark area */
+#widget_shark {
+  position: fixed;
+  z-index: 1000;
+  bottom: 50px;
+}
 
+.shark {
+  width: 15%;
+  border-radius: 50px;
+}
 
+.wrapping_5_xs {
+  background-color: white;
+  width: 60%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
 
+}
 
+.chat {
+  position: relative;
+  width: 400px;
+  height: 30px;
+  margin-left: 0;
+}
+
+.unread_chat {
+  position: absolute;
+  top: 0;
+  left: 45px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50px;
+  background-color: red;
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+}
+/* /widget area */
 
 
 @media screen and (min-width: 768px) {
 
-  /* jumbotron area */
-  .wrapping {
-    background-color: #FFF;
-    border-radius: 5px;
+  /*/header area */
+  body {
+    margin-top: 120px;
+  }
+  header {
+    padding: 5px;
+    height: 120px;
+    background-color: white;
   }
 
-  .signup_google span {
-    text-align: center;
-    margin-right: 107px;
-    margin-left: 30px;
+  .digital_logo {
+    width: 100%;
+    margin: 0;
   }
-  /*/jumbotron area */
-  /* customer logo area */
-  .logos{
-    width: 16%;
+  /* header area */
+
+  /* form area */
+  .google_g {
+    width: 5%;
+    margin-left: 0;
+    margin-top: 5px;
   }
-  /*/customer logo area */
+  /*/form area */
+  /* fontsize */
   .lg-h2 {
     font-size: 35px;
   }
@@ -315,23 +368,47 @@ footer ul li:hover{
     font-size: 20px;
   }
 
+  .li-sm {
+    font-size: 20px;
+  }
+  /*/fontsize */
+  /* jumbotron area */
+  .wrapping {
+    background-color: #FFF;
+    border-radius: 5px;
+  }
+  /*/jumbotron area */
+  /* customer logo area */
+  .logos{
+    width: 16%;
+  }
+  /*/customer logo area */
+  /* footer area */
   .social {
     color: #75809A;
     width: 5%;
     margin: 30px 5px;
     font-size: 30px;
   }
+  /*/footer area */
 
-  .li-sm {
-    font-size: 20px;
+  /* widget area */
+  .wrapping_5_sm {
+    background-color: white;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 28px;
   }
 
+  /* widget area */
 
 
 
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
 
 
   /* font size lg */
@@ -352,25 +429,26 @@ footer ul li:hover{
   }
   /*/font size lg */
   /* header nav */
+  body {
+    margin-top: 70px;
+  }
   header {
-    padding: 0 5%;
-    overflow: hidden;
-    position: fixed;
-    z-index: 100;
+    padding: 5px;
+    height: 70px;
     background-color: white;
+  }
   }
 
   .alg_middle {
     vertical-align: middle;
   }
 
-  #digital_logo {
+  .digital_logo {
     width: 100%;
-    line-height: 50px;
-    margin-top: 10%;
+    margin: 6%;
   }
 
-  .nav li  {
+  .menu li  {
     line-height: 50px;
     display: inline-block;
     margin: 3px 3px 0 3px;
@@ -379,19 +457,24 @@ footer ul li:hover{
 
   }
 
-  .nav li a {
+  .menu li a {
     padding: 5px;
+    text-decoration: none;
 
   }
 
-  .nav a:hover {
+  .menu a:hover {
     color: #3A8AFF;
     background-color: white;
-    text-decoration: none;
   }
 
   li a {
     color: black;
+  }
+
+  .google_g {
+    width: 5%;
+    margin-left: 0;
   }
   /*/ header nav */
   /* jumbotron area */
@@ -462,7 +545,8 @@ footer ul li:hover{
     font-size: 20px;
     color: #75809A;
   }
-
+  /* /deploy area */
+  /* rockerbox area */
   #rockerbox {
     padding: 5% 0;
   }
@@ -473,11 +557,26 @@ footer ul li:hover{
   .fas.fa-chevron-right {
     margin-top: 350px;
   }
-
+  /* /rockerbox area */
+  /* footer area */
   .social {
     width: 10%;
   }
+  /*/footer area */
 
+  /* widget area */
+  .wrapping_5_lg {
+    background-color: white;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 20%;
+  }
 
-
+  .lg {
+    margin-left: 90%;
+  }
+  /*/widget area */
 }
